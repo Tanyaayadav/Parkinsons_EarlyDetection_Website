@@ -24,7 +24,6 @@ export function Footer() {
               (link) => (
                 <a
                   key={link}
-                  href="#"
                   className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
                 >
                   {link}
@@ -35,11 +34,6 @@ export function Footer() {
         </div>
 
         <div className="mt-8 flex flex-col items-center gap-2 border-t border-border/50 pt-8 text-center">
-          <p className="flex items-center gap-1.5 text-sm text-muted-foreground">
-            {"Built with"}
-            <Heart className="h-3.5 w-3.5 text-red-400" />
-            {"for early detection research"}
-          </p>
           <p className="text-xs text-muted-foreground">
             {"NeuroVox is a screening tool, not a diagnostic device. Always consult a healthcare professional."}
           </p>

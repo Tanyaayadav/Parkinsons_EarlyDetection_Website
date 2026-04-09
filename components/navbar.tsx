@@ -30,9 +30,6 @@ export function Navbar() {
             <span className="text-xl font-bold tracking-tight text-foreground" style={{ fontFamily: 'var(--font-heading)' }}>
               NeuroVox
             </span>
-            <span className="ml-1.5 hidden rounded-md bg-secondary px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground sm:inline-block">
-              Beta
-            </span>
           </div>
         </Link>
 

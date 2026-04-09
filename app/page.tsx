@@ -215,7 +215,7 @@ export default function Home() {
         {/* Disclaimer */}
         <section className="border-b border-border/50">
           <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24">
-            <div className="rounded-lg border-l-4 border-l-amber-500 bg-amber-50/50 p-6 dark:bg-amber-950/20">
+            <div className="rounded-lg border-l-4 border-l-amber-500 p-6">
               <div className="flex gap-4">
                 <AlertCircle className="h-6 w-6 flex-shrink-0 text-amber-600 dark:text-amber-400" />
                 <div>

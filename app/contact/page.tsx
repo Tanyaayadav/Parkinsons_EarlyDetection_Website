@@ -238,7 +238,7 @@ export default function ContactPage() {
         <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24">
           {/* Location Permission */}
           {!userLocation && (
-            <Card className="mb-8 border-border/50 bg-blue-50/50 dark:bg-blue-950/20">
+            <Card className="mb-8 border-border/50">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Locate className="h-5 w-5 text-primary" />

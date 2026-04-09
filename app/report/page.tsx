@@ -191,7 +191,7 @@ For more information, visit: neurovox.app
                     <p className="mt-1 text-4xl font-bold text-yellow-600">42/100</p>
                     <p className="mt-2 text-base font-semibold text-foreground">MODERATE INDICATION</p>
                   </div>
-                  <div className="rounded-lg border border-yellow-500/20 bg-yellow-50/50 p-4 dark:bg-yellow-950/20">
+                  <div className="rounded-lg border border-yellow-500/20 p-4">
                     <p className="text-sm text-yellow-800 dark:text-yellow-200">
                       Your voice biomarkers show some deviations from normal ranges. Consider consulting with a neurologist for further evaluation.
                     </p>
@@ -290,7 +290,7 @@ For more information, visit: neurovox.app
           </Card>
 
           {/* Recommendations */}
-          <Card className="mb-8 border-border/50 bg-blue-50/50 dark:bg-blue-950/20">
+          <Card className="mb-8 border-border/50">
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <AlertCircle className="h-5 w-5 text-primary" />
@@ -324,7 +324,7 @@ For more information, visit: neurovox.app
           </Card>
 
           {/* Important Disclaimer */}
-          <Card className="mb-8 border-l-4 border-l-amber-500 border-border/50 bg-amber-50/50 dark:bg-amber-950/20">
+          <Card className="mb-8 border-l-4 border-l-amber-500 border-border/50 ">
             <CardHeader>
               <CardTitle className="text-base">Important Medical Disclaimer</CardTitle>
             </CardHeader>
